@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="ikon-512.png">
+<link rel="stylesheet" href="login.css">
+<title>Login Investor</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+
+<div class="card">
+  <img src="logofw.png" class="logo" alt="Logo FAMILI WATER">
+
+  <h3>Login Investor</h3>
+
+  <input id="email" placeholder="Email">
+  <input id="password" type="password" placeholder="Password">
+
+  <button id="btnLogin" onclick="login()">Masuk</button>
+  <small id="msg"></small>
+</div>
+
+<!-- FIREBASE -->
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<script src="login.js"></script>
+
+</body>
+</html>
